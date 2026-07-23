@@ -1,4 +1,34 @@
 # Changelog
+## v1.16.0 (2026-07-15)
+
+### Tests
+
+- test(mlops): Skip non-PEP440 version keys in sklearn_latest_version (#6022)
+
+## v1.15.1 (2026-07-09)
+
+### New Features
+
+- feat: Add granular telemetry signals decorator params and error classification (#5963)
+
+## v1.15.0 (2026-06-22)
+
+### New Features
+
+- feat: IAM role creation — auto-create least-privilege execution roles, SDK-wide (#2041)
+
+### Bug Fixes
+
+- fix(iam): Validate roles by default, opt-in creation, and add MLflow perms (#2080)
+- fix: Resolve MLflow app discovery issues (#5924)
+
+## v1.14.0 (2026-06-18)
+
+### Other
+
+- Update module dependencies
+- chore: deprecate Python 3.9 support (#5941)
+
 ## v1.13.1 (2026-06-04)
 
 - Update module dependencies
